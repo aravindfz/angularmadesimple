@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+      <Title>AngularController</Title>
+      <Author>administrator</Author>
+      <Description>
+      </Description>
+      <HelpUrl>
+      </HelpUrl>
+      <Shortcut>controller</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>TestModule</ID>
+          <ToolTip>TestModule</ToolTip>
+          <Default>TestModule</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>TestController</ID>
+          <ToolTip>TestController</ToolTip>
+          <Default>TestController</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>a</ID>
+          <ToolTip>a</ToolTip>
+          <Default>a</Default>
+          <Function>
+          </Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>b</ID>
+          <ToolTip>b</ToolTip>
+          <Default>b</Default>
+          <Function>
+          </Function>
+        </Literal>
+      </Declarations>
+      <Code Language="javascript" Delimiter="$"><![CDATA[(function () {
+    "use-strict";
+    angualar
+        .module("$TestModule$")
+        .controller("$TestController$",
+                        ["$a$","$b$",
+                        $TestController$]);
+    function $TestController$($a$, $b$) {
+
+    };
+}());
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
